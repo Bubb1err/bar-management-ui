@@ -1,24 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import CommodityForm from './Commodity/CreateCommodityForm/CommodityForm';
+import Header from './PageControls/Header/Header';
+import ReceiptCard from './Receipt/GetReceipts/ReceiptCard';
+import ReceiptCardsLayout from './Receipt/GetReceipts/ReceiptCardsLayout';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+<div>
+  <Header />
+  <div className='container'>
+    <ReceiptCardsLayout />
+  </div>
+  
+  {/* <ReceiptCard/> */}
+  {/* <CommodityForm id='E8F97A0D-437F-4173-923D-FF1AADEF8FF6'/> */}
+</div>
   );
 }
 

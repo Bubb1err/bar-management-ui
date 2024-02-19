@@ -1,0 +1,24 @@
+
+.header-content {
+    background-color: var(--dark-grey);
+    color: var(--main-text);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    color: var(--main-text);
+    text-decoration: none;
+    margin-right: 2em;
+    font-size: 1.2em;
+}
+
+.nav-link:hover {
+    color: var(--accent-color);
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
